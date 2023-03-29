@@ -1,5 +1,5 @@
 const express = require('express');
-const {getAllCustomers, addCustomer, editCustomer, deleteCustomer, addBooking, getAllBookings} = require('../controllers/openaiController');
+const {getAllCustomers, addCustomer, editCustomer, deleteCustomer, addBooking, getAllBookings} = require('../controllers/operationController');
 const router = express.Router();
 
 router.get('/Customers', getAllCustomers);
